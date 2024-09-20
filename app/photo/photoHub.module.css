@@ -1,0 +1,298 @@
+.marketingKitSection {
+  background-color: #f4f4f4;
+  /* Light background color */
+  padding: 40px;
+  /* Padding around the section */
+  border-radius: 8px;
+  /* Rounded corners */
+  max-width: 1200px;
+  /* Limit width */
+  margin: 20px auto;
+  /* Center the section */
+  display: flex;
+  /* Flexbox layout */
+  align-items: center;
+  /* Center vertically */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+
+  .content {
+    display: flex;
+    /* Flexbox for content */
+    align-items: center;
+    /* Center items vertically */
+    width: 100%;
+    /* Full width */
+  }
+
+  .kitImage {
+    width: 50%;
+    /* Image takes half the width */
+    max-width: 300px;
+    /* Max width for smaller screens */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 5px;
+    /* Rounded corners for the image */
+    margin-right: 20px;
+    /* Space between image and text */
+  }
+
+  .text {
+    flex: 1;
+    /* Allow text to take remaining space */
+  }
+
+  .text h2 {
+    font-size: 2.5em;
+    /* Heading font size */
+    margin-bottom: 15px;
+    /* Space below heading */
+    color: #333;
+    /* Dark text color */
+  }
+
+  .text p {
+    line-height: 1.6;
+    /* Increase line height for readability */
+    color: #555;
+    /* Slightly lighter text color */
+  }
+}
+
+
+
+
+
+
+
+.servicesSection h2 {
+  font-size: 2em;
+  /* Larger font size for the heading */
+  margin-bottom: 20px;
+  /* Space below heading */
+  color: #333;
+  /* Dark text color */
+  text-align: center;
+  /* Center the heading */
+}
+
+.aboutSection {
+  background-color: #f9f9f9;
+  /* Light background color */
+  padding: 40px;
+  /* Padding around the section */
+  border-radius: 8px;
+  /* Rounded corners */
+  max-width: 800px;
+  /* Limit width */
+  margin: 20px auto;
+  /* Center the section */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+}
+
+.aboutSection h2 {
+  font-size: 2em;
+  /* Larger font size for the heading */
+  margin-bottom: 20px;
+  /* Space below heading */
+  color: #333;
+  /* Dark text color */
+  text-align: center;
+  /* Center the heading */
+}
+
+.aboutSection p {
+  line-height: 1.6;
+  /* Increase line height for readability */
+  margin-bottom: 20px;
+  /* Space below paragraphs */
+  color: #555;
+  /* Slightly lighter text color */
+}
+
+.aboutSection h3 {
+  font-size: 1.5em;
+  /* Slightly smaller than h2 */
+  margin: 20px 0;
+  /* Space above and below */
+  color: #007bff;
+  /* Highlight color for subheading */
+}
+
+.expertiseList {
+  list-style-type: none;
+  /* Remove bullet points */
+  padding: 0;
+  /* Remove padding */
+}
+
+.expertiseList li {
+  margin-bottom: 15px;
+  /* Space between list items */
+  background-color: #fff;
+  /* White background for list items */
+  padding: 15px;
+  /* Padding inside list items */
+  border-radius: 5px;
+  /* Rounded corners for list items */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+}
+
+
+
+
+
+
+.wrapper {
+  margin: 50px;
+}
+
+.scrollButton {
+  display: inline-block;
+  /* Make the link behave like a block element */
+  padding: 10px 20px;
+  /* Add some padding for the button feel */
+  background-color: #007bff;
+  /* Button background color */
+  color: white;
+  /* Button text color */
+  border: none;
+  /* Remove border */
+  border-radius: 5px;
+  /* Round the corners */
+  text-decoration: none;
+  /* Remove underline */
+  cursor: pointer;
+  /* Change cursor to pointer */
+  transition: background-color 0.3s ease;
+  /* Smooth transition for hover */
+}
+
+.scrollButton:hover {
+  background-color: #0056b3;
+  /* Darken background on hover */
+}
+
+
+/* Layout for text and image side-by-side */
+.textImageSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 20px;
+}
+
+.textContent {
+  flex: 1;
+  text-align: center;
+}
+
+.textContent h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.textContent p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.imageContent {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.imageContent img {
+  width: 100%;
+  height: auto;
+  /* Auto height to maintain aspect ratio */
+  max-height: 600px;
+  /* Limit the maximum height */
+  object-fit: contain;
+  /* Ensures no part of the image is cropped or distorted */
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  /* Placeholder background to handle empty space */
+}
+
+.banner {
+  background-color: #ffcc00;
+  color: #333;
+  padding: 15px;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+  margin: 0;
+  font-weight: bold;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+}
+
+/* components/ImageGrid.module.css */
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* Automatically resize and stack */
+  gap: 20px;
+  /* Space between the grid items */
+  padding: 20px;
+}
+
+.gridItem {
+  text-align: center;
+  /* Center the text and image */
+}
+
+
+.gridItem img {
+  width: 100%;
+  height: auto;
+  /* Auto height to maintain aspect ratio */
+  max-height: 300px;
+  /* Limit the maximum height */
+  object-fit: contain;
+  /* Ensures no part of the image is cropped or distorted */
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  /* Placeholder background to handle empty space */
+}
+
+.gridItem p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #333;
+}
