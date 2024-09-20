@@ -8,7 +8,7 @@ export default function Home() {
         {/* coupon banner */}
         <div className={styles.coupon}>
           <p className={styles.text}>
-            Use code <strong>DISCOUNT20</strong> for 20% off!
+            Use code <strong>FIRST15</strong> for 15% off your first order!
           </p>
         </div>
 
