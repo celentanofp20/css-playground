@@ -1,9 +1,9 @@
 .wrapper {
-  margin: 50px;
+  /* margin: 50px; */
 }
 
 .coupon {
-  background-color: #ffcc00;
+  background-color: #ebebeb;
   color: #333;
   padding: 15px;
   text-align: center;
@@ -20,13 +20,16 @@
 }
 
 .welcomeSection {
+  background-color: #ebebeb;
+  margin-top: 30px;
+  margin-bottom: 30px;
 
   /* Layout for text and image side-by-side */
   .textImageSection {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
     gap: 20px;
 
     .textContent {
@@ -90,8 +93,7 @@
       /* Limit the maximum height */
       object-fit: contain;
       /* Ensures no part of the image is cropped or distorted */
-      border-radius: 8px;
-      background-color: #f0f0f0;
+      background-color: #ebebeb;
       /* Placeholder background to handle empty space */
     }
   }
@@ -157,8 +159,6 @@
   /* Slightly smaller than h2 */
   margin: 20px 0;
   /* Space above and below */
-  color: #007bff;
-  /* Highlight color for subheading */
 }
 
 .servicesSection {

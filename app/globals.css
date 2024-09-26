@@ -18,12 +18,22 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+.space-n {
+  padding-top: 5px;
+}
+
+.space-s {
+  padding-bottom: 15px;
+}
+
+.space-ew {
+  margin-left: 55px;
+  margin-right: 55px;
 }
 
 @layer utilities {
