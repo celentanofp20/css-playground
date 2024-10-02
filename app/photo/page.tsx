@@ -39,9 +39,18 @@ export default function Home() {
           </p>
           <h3>Our Expertise Includes:</h3>
           <ul className={styles.expertiseList}>
-            <li><strong>Interior and Exterior HDR Photography:</strong> Show every detail of your property with our high dynamic range (HDR) imaging that highlights both the interior and exterior.</li>
-            <li><strong>Aerial Drone Footage:</strong> Capture the full scope of your property with stunning drone images and videos that provide a unique perspective.</li>
-            <li><strong>Interior Video Tours:</strong> Engage potential buyers with immersive video tours that bring your property to life.</li>
+            <li>
+              <strong>Interior and Exterior HDR Photography:</strong>
+              <p>Show every detail of your property with our high dynamic range (HDR) imaging that highlights both the interior and exterior.</p>
+            </li>
+            <li>
+              <strong>Aerial Drone Footage:</strong>
+              <p>Capture the full scope of your property with stunning drone images and videos that provide a unique perspective.</p>
+            </li>
+            <li>
+              <strong>Interior Video Tours:</strong>
+              <p>Engage potential buyers with immersive video tours that bring your property to life.</p>
+            </li>
           </ul>
           <p>
             Explore our services and discover how we can help you present your properties with unparalleled clarity and appeal.
@@ -53,8 +62,9 @@ export default function Home() {
           <h2>Services</h2>
           <div className={styles.gridContainer}>
             <div className={styles.gridItem}>
-              <img src="/interior-bathroom.jpg" alt="Interior Bathroom" />
-              <p><strong></strong>Interior and Exterior HDR Photography Our HDR photography captures every detail of your property, from the grandeur of the living room to the charm of the exterior. With our professional-grade equipment and techniques, your property will shine in every shot.</p>
+              <img className='space-s' src="/interior-bathroom.jpg" alt="Interior Bathroom" />
+              <strong>Interior and Exterior HDR Photography</strong>
+              <p className='space-n space-ew'>Our HDR photography captures every detail of your property, from the grandeur of the living room to the charm of the exterior. With our professional-grade equipment and techniques, your property will shine in every shot.</p>
             </div>
             <div className={styles.gridItem}>
               <img className='space-s' src="/aerial-pool.jpg" alt="Aerial Pool" />

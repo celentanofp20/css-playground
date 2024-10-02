@@ -30,7 +30,6 @@
     justify-content: space-between;
     align-items: center;
     /* padding: 40px 20px; */
-    gap: 20px;
 
     .textContent {
       flex: 1;
@@ -52,8 +51,6 @@
           /* Button text color */
           border: none;
           /* Remove border */
-          border-radius: 5px;
-          /* Round the corners */
           text-decoration: none;
           /* Remove underline */
           cursor: pointer;
@@ -93,7 +90,6 @@
       /* Limit the maximum height */
       object-fit: contain;
       /* Ensures no part of the image is cropped or distorted */
-      border-radius: 8px;
       background-color: #ffffff;
       /* Placeholder background to handle empty space */
     }
@@ -107,7 +103,7 @@
   /* Padding around the section */
   border-radius: 8px;
   /* Rounded corners */
-  max-width: 800px;
+  max-width: 1150px;
   /* Limit width */
   margin: 20px auto;
   /* Center the section */
@@ -115,15 +111,23 @@
 
   /* Subtle shadow */
   .expertiseList {
+    display: flex;
+    /* Use Flexbox to align items horizontally */
+    justify-content: space-between;
+    /* Distribute space between items */
     list-style-type: none;
     /* Remove bullet points */
     padding: 0;
     /* Remove padding */
+    gap: 20px;
+    /* Add space between the list items */
   }
 
   .expertiseList li {
-    margin-bottom: 15px;
-    /* Space between list items */
+    flex: 1;
+    /* Allow each item to take equal space */
+    margin-bottom: 0;
+    /* Remove the bottom margin */
     background-color: #fff;
     /* White background for list items */
     padding: 15px;
@@ -132,6 +136,8 @@
     /* Rounded corners for list items */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     /* Subtle shadow */
+    text-align: center;
+    /* Center align text inside the list items */
   }
 }
 
@@ -147,19 +153,15 @@
 }
 
 .aboutSection p {
-  line-height: 1.6;
-  /* Increase line height for readability */
-  margin-bottom: 20px;
-  /* Space below paragraphs */
+  margin-top: 20px;
   color: #555;
-  /* Slightly lighter text color */
+  text-align: center;
 }
 
 .aboutSection h3 {
   font-size: 1.5em;
-  /* Slightly smaller than h2 */
   margin: 20px 0;
-  /* Space above and below */
+  text-align: center;
 }
 
 .servicesSection {
