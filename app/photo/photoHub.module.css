@@ -89,11 +89,12 @@
       width: 100%;
       height: auto;
       /* Auto height to maintain aspect ratio */
-      max-height: 600px;
+      max-height: 800px;
       /* Limit the maximum height */
       object-fit: contain;
       /* Ensures no part of the image is cropped or distorted */
-      background-color: #ebebeb;
+      border-radius: 8px;
+      background-color: #ffffff;
       /* Placeholder background to handle empty space */
     }
   }
@@ -179,7 +180,7 @@
       width: 100%;
       height: auto;
       /* Auto height to maintain aspect ratio */
-      max-height: 325px;
+      max-height: 500px;
       /* Limit the maximum height */
       object-fit: contain;
       /* Ensures no part of the image is cropped or distorted */
@@ -214,7 +215,7 @@
   /* Padding around the section */
   border-radius: 8px;
   /* Rounded corners */
-  max-width: 1200px;
+  max-width: 1600px;
   /* Limit width */
   margin: 20px auto;
   /* Center the section */
@@ -237,7 +238,7 @@
   .kitImage {
     width: 50%;
     /* Image takes half the width */
-    max-width: 300px;
+    max-width: 600px;
     /* Max width for smaller screens */
     height: auto;
     /* Maintain aspect ratio */

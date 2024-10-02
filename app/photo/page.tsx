@@ -53,9 +53,8 @@ export default function Home() {
           <h2>Services</h2>
           <div className={styles.gridContainer}>
             <div className={styles.gridItem}>
-              <img className='space-s' src="/interior-bathroom.jpg" alt="Interior Bathroom" />
-              <strong>Interior and Exterior HDR Photography</strong>
-              <p className='space-n space-ew'>Our HDR photography captures every detail of your property, from the grandeur of the living room to the charm of the exterior. With our professional-grade equipment and techniques, your property will shine in every shot.</p>
+              <img src="/interior-bathroom.jpg" alt="Interior Bathroom" />
+              <p><strong></strong>Interior and Exterior HDR Photography Our HDR photography captures every detail of your property, from the grandeur of the living room to the charm of the exterior. With our professional-grade equipment and techniques, your property will shine in every shot.</p>
             </div>
             <div className={styles.gridItem}>
               <img className='space-s' src="/aerial-pool.jpg" alt="Aerial Pool" />
