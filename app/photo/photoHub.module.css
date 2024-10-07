@@ -270,4 +270,17 @@
     color: #555;
     /* Slightly lighter text color */
   }
+
+  .svgContainer {
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+    margin-top: 60px;
+  }
+
+  .svgContainer svg {
+    width: auto;
+    /* Adjust the size of each SVG as needed */
+    height: 50px;
+  }
 }
