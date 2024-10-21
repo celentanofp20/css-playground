@@ -1,0 +1,61 @@
+.welcomeSection {
+    background-color: #ebebeb;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.welcomeTextImageSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcomeTextContent {
+    flex: 1;
+    text-align: center;
+}
+
+.welcomeButtonGroup {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.welcomeScrollButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.welcomeScrollButton:hover {
+    background-color: #0056b3;
+}
+
+.welcomeTextContent h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.welcomeTextContent p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.welcomeImageContent {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.welcomeImageContent img {
+    width: 100%;
+    height: auto;
+    max-height: 800px;
+    object-fit: contain;
+    background-color: #ffffff;
+}

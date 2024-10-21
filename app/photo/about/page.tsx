@@ -13,9 +13,9 @@ export default function About() {
                 </p>
             </div>
 
-            <hr />
+            {/* <hr /> */}
             {/* our services section - without style */}
-            <h2 className={styles.sectionTitle}>Our Services:</h2>
+            {/* <h2 className={styles.sectionTitle}>Our Services:</h2>
             <div className={styles.serviceItem}>
                 <p className={styles.highlight}>HDR Photography (Interior & Exterior):</p>
                 <p className={styles.serviceText}>
@@ -35,10 +35,10 @@ export default function About() {
                 <p className={styles.serviceText}>
                     Engage potential buyers with immersive video tours that guide them through your property like never before.
                 </p>
-            </div>
+            </div> */}
 
             {/* why choose section - without styles */}
-            <h2 className={styles.sectionTitle}>Why Choose Estate Frame Media?</h2>
+            {/* <h2 className={styles.sectionTitle}>Why Choose Estate Frame Media?</h2>
             <div className={styles.serviceItem}>
                 <p className={styles.highlight}>Precision and Quality:</p>
                 <p className={styles.serviceText}>
@@ -59,17 +59,18 @@ export default function About() {
                     From the initial consultation to final delivery, we are committed to providing a professional, friendly,
                     and efficient service that exceeds expectations.
                 </p>
-            </div>
+            </div> */}
+
+            {/* <hr /> */}
 
             <p className={styles.exploreText}>
                 Explore our portfolio and discover how Estate Frame Media can elevate the presentation of your properties
                 with unparalleled quality and creativity.
             </p>
 
-            <hr />
 
             {/* our services section - with style */}
-            <h2 className={styles.sectionTitle}>Our Services:</h2>
+            <h2 className={styles.sectionTitle}>Our Services</h2>
             <div className={styles.servicesSection}>
                 <div className={styles.serviceCard}>
                     <div className={styles.serviceIcon}>📷</div>

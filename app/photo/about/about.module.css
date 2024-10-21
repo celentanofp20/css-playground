@@ -62,9 +62,8 @@
 }
 
 .serviceArea img {
-    width: 300px;
-    /* Adjust width as needed */
-    height: auto;
+    width: auto;
+    height: 500px;
     border: 1px solid #ccc;
     border-radius: 8px;
 }
@@ -84,7 +83,6 @@
     margin: 0 0.5rem;
     padding: 0.8rem 1.2rem;
     background-color: #0070f3;
-    /* Example button color */
     color: white;
     border: none;
     border-radius: 5px;
@@ -99,10 +97,10 @@
 
 .whyChooseContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 2rem;
-    gap: 1.5rem;
+    gap: 10px;
 }
 
 .whyChooseCard {
