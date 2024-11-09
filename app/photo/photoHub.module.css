@@ -42,26 +42,17 @@
 
         .scrollButton {
           display: inline-block;
-          /* Make the link behave like a block element */
           padding: 10px 20px;
-          /* Add some padding for the button feel */
           background-color: #007bff;
-          /* Button background color */
           color: white;
-          /* Button text color */
           border: none;
-          /* Remove border */
           text-decoration: none;
-          /* Remove underline */
           cursor: pointer;
-          /* Change cursor to pointer */
           transition: background-color 0.3s ease;
-          /* Smooth transition for hover */
         }
 
         .scrollButton:hover {
           background-color: #0056b3;
-          /* Darken background on hover */
         }
       }
     }

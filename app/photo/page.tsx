@@ -21,7 +21,7 @@ export default function Photo() {
                 Capture Your Properties in Stunning Detail
               </p>
               <div className={styles.buttonGroup}>
-                <a href="#contact" className={styles.scrollButton}>Book Now</a>
+                <a href="/order" className={styles.scrollButton}>Book Now</a>
                 <a href="#services" className={styles.scrollButton}>Learn More</a>
               </div>
             </div>
