@@ -1,3 +1,25 @@
+.header {
+  display: flex;
+  padding: 10px 15px;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  width: auto;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.logoText {
+  font-size: 2rem;
+  font-weight: 600;
+  font-weight: bold;
+  padding-top: 23px;
+}
+
+
+
 .wrapper {
   /* margin: 50px; */
 }

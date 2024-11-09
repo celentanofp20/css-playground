@@ -4,6 +4,10 @@ export default function Photo() {
   return (
     <>
       <title>PhotoHub</title>
+      <header className={styles.header}>
+        <img className={styles.logo} src="/logo.png" alt="Estate Frame Media" />
+        <p className={styles.logoText}>Estate Frame Media</p>
+      </header>
       <div className={styles.wrapper}>
         {/* coupon banner */}
         <div className={styles.coupon}>
