@@ -10,14 +10,17 @@ export default function Photo() {
       </header>
       <div className={styles.wrapper}>
         {/* coupon banner */}
-        <div className={styles.coupon}>
-          <p className={styles.text}>
-            Use code <strong>FIRST15</strong> for 15% off your first order!
-          </p>
+        <div className={styles.couponContainer}>
+          <div className={styles.coupon}>
+            <p className={styles.text}>
+              Use code <strong>FIRST15</strong> for 15% off your first order!
+            </p>
+          </div>
         </div>
 
+
         {/* Welcome */}
-        <section className={`${styles.welcomeSection}`}>
+        <section className={styles.welcomeSection}>
           <div className={styles.textImageSection}>
             <div className={styles.textContent}>
               <h2>Welcome to Estate Frame Media</h2>

@@ -24,6 +24,11 @@
   /* margin: 50px; */
 }
 
+.couponContainer {
+  display: flex;
+  justify-content: center;
+}
+
 .coupon {
   background-color: #ebebeb;
   color: #333;
@@ -31,7 +36,7 @@
   text-align: center;
   font-size: 1.2rem;
   border-radius: 5px;
-  margin: 20px auto;
+  margin: 20px;
   max-width: 600px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
@@ -49,20 +54,24 @@
   /* Layout for text and image side-by-side */
   .textImageSection {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: space-between;
     align-items: center;
-    /* padding: 40px 20px; */
 
     .textContent {
       flex: 1;
       text-align: center;
+      padding: 20px;
 
       .buttonGroup {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         gap: 10px;
 
         .scrollButton {
+          min-width: 130px;
           display: inline-block;
           padding: 10px 20px;
           background-color: #007bff;
@@ -71,6 +80,7 @@
           text-decoration: none;
           cursor: pointer;
           transition: background-color 0.3s ease;
+          border-radius: 5px;
         }
 
         .scrollButton:hover {
@@ -92,65 +102,45 @@
     .imageContent {
       flex: 1;
       display: flex;
-      justify-content: flex-end;
+      justify-content: center;
+      min-width: 300px;
     }
 
     .imageContent img {
       width: 100%;
       height: auto;
-      /* Auto height to maintain aspect ratio */
       max-height: 800px;
-      /* Limit the maximum height */
       object-fit: contain;
-      /* Ensures no part of the image is cropped or distorted */
-      background-color: #ffffff;
-      /* Placeholder background to handle empty space */
+      background-color: #ebebeb;
     }
   }
 }
 
 .aboutSection {
-  background-color: #f9f9f9;
-  /* Light background color */
+  background-color: #ebebeb;
   padding: 40px;
-  /* Padding around the section */
   border-radius: 8px;
-  /* Rounded corners */
   max-width: 1150px;
-  /* Limit width */
   margin: 20px auto;
-  /* Center the section */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
-  /* Subtle shadow */
   .expertiseList {
     display: flex;
-    /* Use Flexbox to align items horizontally */
+    flex-wrap: wrap;
     justify-content: space-between;
-    /* Distribute space between items */
     list-style-type: none;
-    /* Remove bullet points */
     padding: 0;
-    /* Remove padding */
     gap: 20px;
-    /* Add space between the list items */
   }
 
   .expertiseList li {
     flex: 1;
-    /* Allow each item to take equal space */
     margin-bottom: 0;
-    /* Remove the bottom margin */
     background-color: #fff;
-    /* White background for list items */
     padding: 15px;
-    /* Padding inside list items */
     border-radius: 5px;
-    /* Rounded corners for list items */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    /* Subtle shadow */
     text-align: center;
-    /* Center align text inside the list items */
   }
 }
 
@@ -180,15 +170,14 @@
 .servicesSection {
   .gridContainer {
     display: flex;
-    gap: 2rem;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
+    gap: 20px;
+    align-items: baseline;
+    margin: 20px;
 
     .gridItem {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 30%;
+      flex: 1;
       padding: 1rem;
       text-align: center;
     }
@@ -197,10 +186,8 @@
       max-height: 500px;
       object-fit: contain;
       background-color: #ffffff;
-      width: 100%;
-      height: 100%;
-      position: relative;
-      bottom: 0;
+      width: auto;
+      height: auto;
     }
 
     .gridItem strong {
@@ -224,29 +211,19 @@
 
 .marketingKitSection {
   background-color: #f4f4f4;
-  /* Light background color */
   padding: 40px;
-  /* Padding around the section */
   border-radius: 8px;
-  /* Rounded corners */
   max-width: 1600px;
-  /* Limit width */
-  margin: 20px auto;
-  /* Center the section */
+  margin: 20px;
   display: flex;
-  /* Flexbox layout */
   align-items: center;
-  /* Center vertically */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  /* Subtle shadow */
 
   .content {
     display: flex;
-    /* Flexbox for content */
     align-items: center;
-    /* Center items vertically */
     width: 100%;
-    /* Full width */
+    flex-wrap: wrap;
   }
 
   .kitImage {
@@ -285,7 +262,8 @@
 
   .svgContainer {
     display: flex;
-    gap: 100px;
+    flex-wrap: wrap;
+    gap: 10px;
     justify-content: space-around;
     margin-top: 60px;
   }
@@ -294,5 +272,6 @@
     width: auto;
     /* Adjust the size of each SVG as needed */
     height: 50px;
+    padding: 10px;
   }
 }
