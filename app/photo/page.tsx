@@ -5,8 +5,14 @@ export default function Photo() {
     <>
       <title>PhotoHub</title>
       <header className={styles.header}>
-        <img className={styles.logo} src="/logo.png" alt="Estate Frame Media" />
-        <p className={styles.logoText}>Estate Frame Media</p>
+        <div className={styles.headerLeft}>
+          <img className={styles.logo} src="/logo.png" alt="Estate Frame Media" />
+          <a href='/' className={styles.logoText}>Estate Frame Media</a>
+        </div>
+        <nav className={styles.navLinks}>
+          <a href="/about">About</a>
+          <a href="/login">Login</a>
+        </nav>
       </header>
       <div className={styles.wrapper}>
         {/* coupon banner */}
